@@ -5,22 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <section class="container">
+    <div class="card">
+      <div class="card__image">
+      </div>
+      <div class="card__text">
+        <h1>
+          Get <span class="accent">insights</span> that help your business grow.
+        </h1>
+        <p class="card__text--p">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.
+        </p>
+        <div class="card__about">
+          <div>
+            <p class="card__about--number">10k+</p>
+            <p class="card__about--info">COMPANIES</p>
+          </div>
+          <div>
+            <p class="card__about--number">314</p>
+            <p class="card__about--info">TEMPLATES</p>
+          </div>
+          <div>
+            <p class="card__about--number">12M+</p>
+            <p class="card__about--info">QUERIES</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
