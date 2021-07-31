@@ -97,7 +97,7 @@ p.card__about--info {
         inline-size: 500px;
         block-size: auto;
         justify-content: center;
-        background-image: url(./images/image-header-mobile.jpg);
+        background-image: url(./images/image-header-desktop.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
