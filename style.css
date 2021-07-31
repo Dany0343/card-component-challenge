@@ -80,6 +80,7 @@ p.card__about--number {
     color: var(--White);
 }
 p.card__about--info {
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 1.1rem;
     color: var(--SlightlyTransparent2);
 }
@@ -87,13 +88,14 @@ p.card__about--info {
 @media screen and (min-width: 768px) {
     .card {
         flex-direction: row;
-        inline-size: 2000px;
+        inline-size: 100%;
         max-inline-size: 1440px;
     }
     .card__image {
         max-inline-size: 100%;
+        min-inline-size: 500px;
         inline-size: 500px;
-        block-size: 500px;
+        block-size: auto;
         justify-content: center;
         background-image: url(./images/image-header-mobile.jpg);
         background-position: center;
@@ -113,9 +115,8 @@ p.card__about--info {
         align-items: flex-start;
         justify-content: center;
         gap: 0;
-        /* padding: 50px 150px 50px 50px; */
         padding-inline-start: 80px;
-        padding-inline-end: 150px;
+        padding-inline-end: 80px;
         padding-block-start: 60px;
         padding-block-end: 60px;
         border-radius: 10px 0 0 10px;
@@ -123,18 +124,21 @@ p.card__about--info {
     }
     .card__text h1{
         font-size: 4.2rem;
-        margin-block-end: 50px;
+        margin-block-end: 30px;
+        padding-inline-end: 127px;
     }
     .card__about {
         flex-direction: row;
         gap: 100px;
     }
     .card__text--p {
-        font-size: 1.5rem;
-        margin-block-end: 60px;
+        font-size: 1.7rem;
+        margin-block-end: 80px;
+        padding-inline-end: 210px;
+        line-height: 2.5rem;
     }
     p.card__about--number {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         margin-block-end: 5px;
